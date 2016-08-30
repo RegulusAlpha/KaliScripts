@@ -1,5 +1,6 @@
 #!/bin/bash
-# mac spoof your face hole
+# mac spoof
+# Author: Ross Tramontano
 
 echo " $(tput setaf 1)                                     "
 echo "    ___       ___       ___       ___       ___      "
