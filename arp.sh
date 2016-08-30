@@ -1,5 +1,4 @@
 #!/bin/bash
-# arp cashe poizon with ettercap
 
 
 echo "$(tput setaf 5)"
