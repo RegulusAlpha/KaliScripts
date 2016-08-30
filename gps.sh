@@ -24,7 +24,7 @@ if [ "$EUID" -ne 0 ]
     exit
 fi
 
-
+# restarting your computer is required if you dont want to risk bricking your gps.
 read -r -p "has your computer been restarted? (y/n): " reloadvar
 if [[ $reloadvar == 'n' ]]; then 
 reboot
