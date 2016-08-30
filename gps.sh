@@ -1,6 +1,6 @@
 #!/bin/bash
 # GPSD Startup Script
-# Author: Ross Tramontano
+# Author: Ross Tramontano (RegulusAlpha)
 
 echo " $(tput setaf 3)"
 echo "      ___         ___      ___         ___         ___      "
