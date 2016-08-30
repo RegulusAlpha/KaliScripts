@@ -1,5 +1,5 @@
 #!/bin/bash
-# mac spoof
+# automate macchanger
 # Author: Ross Tramontano (RegulusAlpha)
 
 echo " $(tput setaf 1)                                     "
