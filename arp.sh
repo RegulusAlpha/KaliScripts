@@ -1,6 +1,6 @@
 #!/bin/bash
 # sutomate arp spoof, ssl strip and iptables
-# Author: Ross Tramontano
+# Author: Ross Tramontano (RegulusAlpha)
 
 echo "$(tput setaf 5)"
 echo "      ___           ___           ___         ___           ___       "  
