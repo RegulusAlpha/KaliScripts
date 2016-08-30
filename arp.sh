@@ -1,5 +1,5 @@
 #!/bin/bash
-# sutomate arp spoof, ssl strip and iptables
+# automate arpspoof, sslstrip and iptables
 # Author: Ross Tramontano (RegulusAlpha)
 
 echo "$(tput setaf 5)"
