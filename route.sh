@@ -1,5 +1,5 @@
 #!/bin/bash
-#credit goes hak5darren
+#credit goes to hak5darren and wp4.sh and wp5.sh
 
 read -r -p "Set netmask [255.255.255.0]: " netmaskvar
 read -r -p "Set network ip [10.0.0.1/24]: " netip
