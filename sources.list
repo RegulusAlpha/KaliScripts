@@ -1,0 +1,5 @@
+#sources.list for kali linux /etc/apt/sources.list
+#your file should only have these 2 repos
+#anything else might break your install
+deb http://repo.kali.org/kali kali-rolling main non-free contrib
+deb-src http://repo.kali.org/kali kali-rolling main non-free contrib
