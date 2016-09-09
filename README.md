@@ -10,3 +10,5 @@ gps.sh will automate the process for setting up a gps to work with kismet/gpsd
 route.sh is a version of wp5.sh by hak5darren that I simplified, this will work with regular routers and pineapples 
 
 ssl.sh will download and launch certbot for lets encrypt
+
+sources.list these are the sources you should be using with kali 2.0
